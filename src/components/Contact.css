@@ -1,0 +1,88 @@
+.contact-container {
+  position: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.contact-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  width: 80%;
+  background-color: rgba(14, 11, 22, 0.8);
+  border-radius: 30px;
+}
+
+.contact-wrapper a{
+  margin: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #4717F6;
+  font-size: 13px;
+}
+
+.contact-wrapper a img{
+  margin-right: 8px;
+}
+
+.icon{
+  width: 30px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 10px;
+  width: 100%;
+  background-color: #ccc;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets */
+  .contact-wrapper a{
+    margin: 20px;
+    font-size: 15px;
+  }
+
+  .contact-wrapper a img{
+    margin-right: 11px;
+  }
+
+  .icon{
+    width: 40px;
+  }
+
+  .footer {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .contact-wrapper a{
+    margin: 30px;
+    font-size: 17px;
+  }
+
+  .contact-wrapper a img{
+    margin-right: 10px;
+  }
+
+  .icon{
+    width: 50px;
+  }
+
+  .footer {
+    font-size: 13px;
+  }
+}
