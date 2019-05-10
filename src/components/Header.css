@@ -1,65 +1,10 @@
 .header-container {
-  overflow: hidden;
-  padding-right: 30px;
-}
-
-.header-container a {
-  float: right;
-  color: #4717F6;
-  text-align: center;
-  text-decoration: none;
-  padding: 5px 10px;
-  font-size: 13px;
-}
-
-.header-container a:hover{
   background-color: #0E0B16;
-  color: #A239CA;
-}
-
-.header-container a:active{
-  background-color: #A239CA;
-  color: #0E0B16;
-}
-
-.logo {
-  float: left;
-  left: 0;
 }
 
 .logo img{
-  height: 15px;
+  height: 30px;
   width: auto;
-}
-
-@media only screen and (min-width: 600px) {
-  /* For tablets */
-  .header-container a {
-    padding: 10px 13px;
-    font-size: 15px;
-  }
-
-  .header-container {
-    padding-right: 50px;
-  }
-
-  .logo img{
-    height: 17px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .header-container a {
-    padding: 14px 16px;
-    font-size: 17px;
-  }
-
-  .header-container {
-    padding-right: 100px;
-  }
-
-  .logo img{
-    height: 20px;
-  }
+  background-color: #E7DFDD;
+  padding: 3px;
 }
